@@ -22,8 +22,8 @@ This project implements an interactive chatbot powered by Llama 2, Pinecone, and
    cd 1_Website Bot using Llama 2, Pinecone & LangChain
 2. Set up your API keys:
 
-Obtain API keys for Pinecone and OpenAI.
-Add them to your environment variables or a .env file.
+    Obtain API keys for Pinecone and OpenAI.
+    Add them to your environment variables or a .env file.
 
 3.Run the notebook or script:
  '''bash
@@ -38,5 +38,7 @@ Add them to your environment variables or a .env file.
 The project architecture involves:
 
 1- Pretrained Language Model: Llama 2 for conversational intelligence.
+
 2- Vector Database: Pinecone for storing and retrieving embeddings.
+
 3- LangChain Framework: To chain model responses with retrieval mechanisms.
