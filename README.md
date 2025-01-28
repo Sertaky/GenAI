@@ -114,8 +114,8 @@ Before running the notebook, ensure you have the following:
 3. **Generate Text**:
    Use the configured pipeline to input a prompt and receive generated text:
    ```python
-   result = pipeline("Your input prompt here")
-   print(result)
+   question = "Your input prompt here"
+   print(llm_chain.run(question))
    ```
 
 ## Example Output
