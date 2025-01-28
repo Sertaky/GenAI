@@ -18,5 +18,25 @@ This project implements an interactive chatbot powered by Llama 2, Pinecone, and
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/website-bot.git
-   cd website-bot
+   git clone https://github.com/Sertaky/GenAI.git
+   cd 1_Website Bot using Llama 2, Pinecone & LangChain
+2. Set up your API keys:
+
+Obtain API keys for Pinecone and OpenAI.
+Add them to your environment variables or a .env file.
+
+3.Run the notebook or script:
+ '''bash
+         jupyter notebook Website_bot_using_Llama2,_Pinecone_&_LangChain.ipynb
+
+## Usage
+1- Launch the chatbot by running the notebook.
+2- Enter your query in the prompt field.
+3- The chatbot will provide an intelligent response based on the context.
+
+## Architecture
+The project architecture involves:
+
+Pretrained Language Model: Llama 2 for conversational intelligence.
+Vector Database: Pinecone for storing and retrieving embeddings.
+LangChain Framework: To chain model responses with retrieval mechanisms.
