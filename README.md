@@ -37,6 +37,6 @@ Add them to your environment variables or a .env file.
 ## Architecture
 The project architecture involves:
 
-Pretrained Language Model: Llama 2 for conversational intelligence.
-Vector Database: Pinecone for storing and retrieving embeddings.
-LangChain Framework: To chain model responses with retrieval mechanisms.
+1- Pretrained Language Model: Llama 2 for conversational intelligence.
+2- Vector Database: Pinecone for storing and retrieving embeddings.
+3- LangChain Framework: To chain model responses with retrieval mechanisms.
