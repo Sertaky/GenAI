@@ -118,10 +118,3 @@ Before running the notebook, ensure you have the following:
    print(llm_chain.run(question))
    ```
 
-## Example Output
-- **Input**: "What are the applications of Falcon-7B?"
-- **Output**: "Falcon-7B can be used in a wide range of applications including chatbots, content creation, code generation, and more."
-
-========================================================================================================================================================================
-
-
